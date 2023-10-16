@@ -1,0 +1,4 @@
+1.1/4.1
+Dadurch das es ein HTML File wird, zeigt es alles als Text in der Website an.
+1.1/4.2
+Ich finde es hat sich nicht viel verändert. Ausser man kann sehen wie die Seite nun heisst, so wie im Head.
