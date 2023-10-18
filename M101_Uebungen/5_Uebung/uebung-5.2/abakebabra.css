@@ -4,6 +4,19 @@ html, body {
 header, main, footer {
     overflow: auto;
 }
+main {
+    padding: 20px 20px 20px 10px; /* top, right, bottom, left */
+}
+header h1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Setzen Sie die Breite auf 300px */
+}
+header h1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Setzen Sie die Breite auf 300px */
+}
 header {
     /* source https://commons.wikimedia.org/wiki/File:D%C3%B6ner_Kebab_in_Istanbul.jpg */
     background-image: url('abakebabra.jpg');

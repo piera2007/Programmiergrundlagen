@@ -1,22 +1,67 @@
 #gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    max-width: 1000px;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-figure {
-    position: relative;
-    overflow: hidden;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
+figure:nth-child(1) {
+    flex: 1;
+    margin-right: 10px; /* Abstand zwischen den Bildern */
 }
+
+figure:nth-child(1) img {
+    width: 250px; /* Ändert die Breite des ersten Bildes auf 250px */
+    height: 200px; /* Ändert die Höhe des ersten Bildes auf 200px */
+}
+
+figure:nth-child(2) img {
+    width: 180px; /* Ändert die Breite des zweiten Bildes auf 180px */
+    height: 140px; /* Ändert die Höhe des zweiten Bildes auf 140px */
+    position: absolute;
+    top: 10px; /* Verschiebt das erste Bild um 10px nach unten */
+    left: 20px; /* Verschiebt das erste Bild um 20px nach rechts */
+    top: -20px; /* Verschiebt das zweite Bild um 20px nach oben (negativer Wert) */
+    left: 30px; /* Verschiebt das zweite Bild um 30px nach rechts */
+}
+
+/* Weitere Anpassungen für andere Bilder */
+
+
+figure:nth-child(3) {
+    order: 4;
+}
+
+figure:nth-child(4) {
+    order: 2;
+}
+
+figure:nth-child(5) {
+    order: 5;
+}
+
+figure:nth-child(6) {
+    order: 6;
+}
+
+figure:nth-child(7) {
+    order: 7;
+}
+
+figure:nth-child(8) {
+    order: 8;
+}
+
+figure:nth-child(9) {
+    order: 9;
+}
+
+figure:nth-child(10) {
+    order: 10;
+}
+
 
 img {
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.3s;
+    width: 200px; /* Ändert die Breite der Bilder auf 200px */
+    height: 150px; /* Ändert die Höhe der Bilder auf 150px */
 }
 
 figcaption {
